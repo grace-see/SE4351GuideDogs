@@ -77,11 +77,15 @@ nav > ul {
     justify-content: space-evenly;
 }
 
-li > a {
+.nav-link {
     text-decoration: none;
     color: white;
 }
 
-li > a:hover {
+.nav-link:hover {
     text-decoration: underline;
+}
+
+#project-files > ul {
+    margin-left: 20px;
 }
